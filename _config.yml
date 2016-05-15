@@ -1,0 +1,65 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title:       "The Mad Cupcaker"
+description: "...something about cupcakes..."
+#url:         "http://madcupcaker.github.io/blog"
+repository:  "https://github.com/madcupcaker/blog"
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/New_York
+markdown:          kramdown
+highlighter:       pygments
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Jenny Tracy
+  avatar: avatar.gif
+  job: "Baker at Large"
+  bio: "I make cupcakes!"
+#  email:
+#  disqus-shortname:
+#  twitter:
+#  facebook:
+#  google:
+#    plus:
+#    analytics:
+#    verify:
+#    ad-client:
+#    ad-slot:
+#  bing-verify:
+#  github: #username
+#  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#  linkedin: #username
+#  xing: #username
+#  instagram: #username
+#  lastfm: #username
+#  tumblr: #username
+#  pinterest: #username
+#  foursquare: #username
+#  steam: #username
+#  dribbble: #username
+#  youtube: #username
+#  soundcloud: #username
+#  weibo: #username
+#  flickr: #username
+#  codepen: #username
